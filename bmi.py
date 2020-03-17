@@ -3,7 +3,7 @@ weight = float(input("Enter Weight in Kilograms : "))
 
 bmi = weight/(height**2)
 
-print("Your BMI is: {0} and You are: ".format(bmi),end='')
+print("Your Body Mass Index (BMI) is: {0} and You are: ".format(bmi),end='')
 
 if (bmi<16):
     print("Severely Underweight")
